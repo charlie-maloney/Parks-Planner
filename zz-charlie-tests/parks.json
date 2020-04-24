@@ -1,0 +1,164 @@
+[
+  {
+      "fullName": "Anacostia Park",
+      "parkCode": "anac",
+      "latitude": "38.89644397",
+      "longitude": "-76.96314236"
+  },
+  {
+      "fullName": "Appalachian National Scenic Trail",
+      "parkCode": "appa",
+      "latitude": "40.41029575",
+      "longitude": "-76.4337548"
+  },
+  {
+      "fullName": "Badlands National Park",
+      "parkCode": "badl",
+      "latitude": "43.68584846",
+      "longitude": "-102.482942"
+  },
+  {
+      "fullName": "Arches National Park",
+      "parkCode": "arch",
+      "latitude": "38.72261844",
+      "longitude": "-109.5863666"
+  },
+  {
+      "fullName": "Big Bend National Park",
+      "parkCode": "bibe",
+      "latitude": "29.29817767",
+      "longitude": "-103.2297897"
+  },
+  {
+      "fullName": "Glacier National Park",
+      "parkCode": "glac",
+      "latitude": "48.68414678",
+      "longitude": "-113.8009306"
+  },
+  {
+      "fullName": "Kenai Fjords National Park",
+      "parkCode": "kefj",
+      "latitude": "59.81804414",
+      "longitude": "-150.106502"
+  },
+  {
+      "fullName": "Missouri National Recreational River",
+      "parkCode": "mnrr",
+      "latitude": "42.7882189",
+      "longitude": "-97.59077822"
+  },
+  {
+      "fullName": "Theodore Roosevelt National Park",
+      "parkCode": "thro",
+      "latitude": "47.17777274",
+      "longitude": "-103.4300083"
+  },
+  {
+      "fullName": "Gates Of The Arctic National Park & Preserve",
+      "parkCode": "gaar",
+      "latitude": "67.75961636",
+      "longitude": "-153.2917758"
+  },
+  {
+      "fullName": "Indiana Dunes National Park",
+      "parkCode": "indu",
+      "latitude": "41.63765525",
+      "longitude": "-87.09647445"
+  },
+  {
+      "fullName": "Lower Delaware National Wild and Scenic River",
+      "parkCode": "lode",
+      "latitude": null,
+      "longitude": null
+  },
+  {
+      "fullName": "Redwood National and State Parks",
+      "parkCode": "redw",
+      "latitude": "41.37237268",
+      "longitude": "-124.0318129"
+  },
+  {
+      "fullName": "Wrangell - St Elias National Park & Preserve",
+      "parkCode": "wrst",
+      "latitude": "61.4182147",
+      "longitude": "-142.6028439"
+  },
+  {
+      "fullName": "Glacier Bay National Park & Preserve",
+      "parkCode": "glba",
+      "latitude": "58.80086718",
+      "longitude": "-136.8407579"
+  },
+  {
+      "fullName": "Jewel Cave National Monument",
+      "parkCode": "jeca",
+      "latitude": "43.73102945",
+      "longitude": "-103.829994"
+  },
+  {
+      "fullName": "Maine Acadian Culture",
+      "parkCode": "maac",
+      "latitude": "47.2831115723",
+      "longitude": "-68.4110870361"
+  },
+  {
+      "fullName": "Sequoia & Kings Canyon National Parks",
+      "parkCode": "seki",
+      "latitude": "36.71277299",
+      "longitude": "-118.587429"
+  },
+  {
+      "fullName": "Yellowstone National Park",
+      "parkCode": "yell",
+      "latitude": "44.59824417",
+      "longitude": "-110.5471695"
+  },
+  {
+      "fullName": "Gateway Arch National Park",
+      "parkCode": "jeff",
+      "latitude": "38.6258069",
+      "longitude": "-90.1892508"
+  },
+  {
+      "fullName": "Dry Tortugas National Park",
+      "parkCode": "drto",
+      "latitude": "24.628741",
+      "longitude": "-82.87319"
+  },
+  {
+      "fullName": "John Muir National Historic Site",
+      "parkCode": "jomu",
+      "latitude": "37.9828422",
+      "longitude": "-122.1326097"
+  },
+  {
+      "fullName": "Lassen Volcanic National Park",
+      "parkCode": "lavo",
+      "latitude": "40.49354575",
+      "longitude": "-121.4075993"
+  },
+  {
+      "fullName": "Petrified Forest National Park",
+      "parkCode": "pefo",
+      "latitude": "34.98387664",
+      "longitude": "-109.7877678"
+  },
+  {
+      "fullName": "Mammoth Cave National Park",
+      "parkCode": "maca",
+      "latitude": "37.19760458",
+      "longitude": "-86.13090198"
+  },
+  {
+      "fullName": "Rocky Mountain National Park",
+      "parkCode": "romo",
+      "latitude": "40.3556924",
+      "longitude": "-105.6972879"
+  },
+  {
+      "fullName": "Yosemite National Park",
+      "parkCode": "yose",
+      "latitude": "37.84883288",
+      "longitude": "-119.5571873"
+  }
+]

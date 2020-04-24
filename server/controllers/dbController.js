@@ -47,9 +47,9 @@ const getParksAPI = () => {
 
 // * used to load SQL database with NPS response...
 
-const updateDatabase = () => {
-  const query = `INSERT INTO parks ("parkCode", "fullName", "latitude", "longitude", "weatherInfo", "images", "activities") VALUES($1, $2, $3, $4, $5, $6, $7)`;
-  const parksArray = JSON.parse(fs.readFileSync(path.resolve(__dirname, '../json/parks.json')));
+const updateDatabase = async () => {
+  const query = `INSERT INTO parks ("parkCode", "fullName", "latitude", "longitude", "weatherInfo", "images", "activities", "description") VALUES($1, $2, $3, $4, $5, $6, $7, $8)`;
+  const parksArray = JSON.parse(fs.readFileSync(path.resolve(__dirname, '../json/allParks.json')));
 
   for (let array of parksArray) {
     let park = [
@@ -60,15 +60,27 @@ const updateDatabase = () => {
       array.weatherInfo,
       JSON.stringify(array.images),
       JSON.stringify(array.activities),
+      array.description
     ];
+
+    function delay(n) {  
+      return new Promise(done => {
+        setTimeout(() => {
+          done();
+        }, n);
+      });
+    }
+
+    await delay(1000)
+    console.log('hello')
 
     db.query(query, park)
       .then((added) => {
-        console.log(added);
+        console.log('added:', park.fullName);
       })
-      .catch((err) => console.log(err));
+      .catch((err) => console.log('ERROR:', err.detail));
   }
 };
 
-getParksAPI()
-// updateDatabase()
+// getParksAPI()
+updateDatabase()
